@@ -1,0 +1,288 @@
+@media only screen and (max-width: 1200px) and (min-width: 1024px) {
+    /*----Features Page----------*/
+    .div-features .row .col-lg-4 {
+        margin-left: 10%;
+        padding-right: 20px;
+    }
+    
+    .icon-small{margin-left: 48%;}
+    
+    .works .row .col-lg-3,
+    .works .row .col-lg-3:first-child {margin-left: 25%;}
+    
+    /*----Subscription Page-------*/
+    .sub-page .row .col-lg-3:first-child {margin-left: 10px;}
+    
+    .plan-box ul {display: inline-block;}
+    .plan-box ul li {
+        float: left;
+        padding: 30px 10px;
+    }
+    
+    .plan-box button {
+        display: inline-block;
+        margin: 10px 400px;
+        }
+    
+    /*------Team Page-----------*/
+    
+    .team-page .row .col-lg-2:nth-child(odd) {margin-left: 8.33%;}
+    
+    .team-page .row ul li {margin: 1% 8%;}
+    
+    .works .row .col-lg-3 i {
+        margin-top: -180px;
+        margin-left: 210px;
+    }
+    
+    /*-------Info section-------*/
+    
+    .info-section {max-width: 100%;}
+    .info-section p {clear: left;}
+    .form-section {max-width: 50%;}
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+	/*----    NavBar  -----------*/
+	.co-name {width: 100%;}	
+	.current{margin-left:30px;}
+    /*----Features Page----------*/
+    .div-features .row .col-lg-4 {
+        margin-left: 10%;
+        padding-right: 20px;
+    }
+    
+    /*------Portfolio Page---------*/
+    .works .row .col-lg-3,
+    .works .row .col-lg-3:first-child {
+		padding-left: 25%;
+		margin-left: 0;
+	}
+    
+    .works .row .col-lg-3 i {
+        margin-top: -200px;
+        margin-left: 230px;
+    }
+    
+    
+    .team-page .row .col-lg-2 {margin-left: 16.66%;}
+    
+    .info-section {max-width: 50%;}
+    
+    .form-section {max-width: 50%;}
+    
+    .info-section p {clear: left;} 
+    
+    .icon-small{margin-left: 48%;}
+    /*-----Sub Page--------*/
+    
+    .plan-box {width: 70%;}
+    
+    .sub-page .row .col-lg-3 {
+		padding-left: 12.48%;
+		margin: 50px 0;
+		}
+
+	
+	.sub-page .row .col-lg-3:first-child {
+		padding-left: 12.48%;
+		margin-left:0;
+		}
+	
+	.row {margin: 0 !important;}
+	
+	.plan-box button {
+		margin-right: 130px;
+		margin-top: 220px;
+	}
+	
+	.thumbnail ul {margin-left:30%;}
+    
+}
+
+/* medium phones from 481px to 767px */
+@media screen and (max-width: 767px) and (min-width:481px) {
+    /*----Features Page--*/
+    .div-features .row .col-lg-4 {
+        margin-left: 10%;
+        padding-right: 20px;
+    }
+    /*----info section---*/
+
+    .info-section {
+        padding-left: 5%;
+        display: block;
+        max-width: 100%;
+    }
+
+    .info-section p {clear: left;}
+
+    .form-section {
+        max-width: 50%;
+        float: right;
+        margin-left: 10px;
+        margin-top: 65px;
+    }
+
+    /*-----Team section------*/
+    .team-page .row .col-lg-2 {margin-left: 16.66%;}
+
+    .works .row .col-lg-3:first-child {margin-left: 16.66%;}
+
+    .works .row .col-xs-12 {margin-left: 16.66%;} 
+    
+    .sub-page .row .col-lg-3,
+    .sub-page .row .col-lg-3:first-child {margin: 50px 0;}
+    
+    .plan-box ul {
+        list-style: none;
+        width: 50%;
+        margin-left: 200px;
+        text-align: left;
+    }
+    
+    .plan-box ul li {float: none;} 
+    
+    .ion-android-upload,
+    .ion-code-working {margin-left: 45%;}
+    
+    .works .row .col-lg-3 i {
+        font-size: 250%;
+        position: absolute;
+        margin-top: -200px;
+        margin-left: 220px;
+        text-align: center;
+        color: #1abc9c;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+	
+    .div-services .col-lg-4 {margin: 5px 10px;}
+    
+    .mission,.h2-features {font-size: 200%;}
+    
+    .div-features .row .col-lg-4 {margin-left: 10%;}
+    
+    .div-features .row .col-lg-4:last-child {margin-bottom: 50px;}
+    
+    .div-features i {
+        margin-right: 10px;
+        font-size: 180%;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .div-features p {font-size: 90%;}
+    
+    .div-features p:not(.features-par) {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    .div-features h3 {font-size: 120%;}
+    
+    .div-features {height: auto;}
+    
+    .sub-page .row .col-lg-3 {margin: 50px auto;}
+    
+    .sub-page .row .col-lg-3:first-child {margin: 50px auto;}
+    
+    .plan-box ul li {
+        clear: left;
+        margin: 10px 0px 5px;
+    }
+    
+    .plan-box .btn {    
+		right: 60px;
+		margin-top: 270px;
+	}
+    
+    .sub-page h2 {font-size: 150%;}
+    
+    .team-page .row .col-lg-2 {margin-left: 16.66%;}
+    
+    .info-section {max-width: 100%;}
+    
+    .info-section p {clear: left;}
+    
+    .form-section {
+        width: 100%;
+        float: left;
+    }
+    
+    #form-btn {margin: 10px 30px;}
+    
+    input[type=text],
+    input[type=email],
+    textarea {width: 100%;}
+    
+    .foo .zone {width: 100%;}
+    
+    .foo .copyrights {margin-bottom: 10px;}
+    
+    .foo .copyrights p {font-size: 100%;}
+    
+    .foo .footer-list li a {font-size: 100%;}
+        
+    .works .row .col-lg-3,
+    .works .row .col-lg-3:first-child{margin-left: 0;}
+    
+    .works .row .col-lg-3 i {
+        margin-top: -180px;
+        margin-left: 200px;
+    }
+    
+    .plan-box div:last-child {height: 350px;}
+    
+    /*bootstrap overwrite*/
+    .row {margin: 0 !important;}
+    
+}
+
+/*----For Responsive Nav Bar--------*/
+@media screen and (max-width: 767px) {
+    .main-nav {display: none;}
+    
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-nav {
+        float: left;
+        max-width: 60%;
+        margin-top: 45px;
+        margin-left: 10px;
+        margin-right: 25px;
+    }
+    
+    .main-nav h1 {
+        float: left;
+        margin-left: 0;
+    }
+    
+    .main-nav li {display: block;}
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        clear: left;
+        color: #c1c1c1;
+        display: block;
+        border: 0;
+        padding: 5px 0;
+        font-size: 100%;
+    }
+    
+    .main-nav li a:hover {
+        font-size: 120%;
+        transition: font-size 0.4s;
+        width: 100%;
+    }
+    
+    .sticky .current a {background-color: #fff;}
+    
+    .sticky .main-nav { margin-top: 10px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {padding: 10px 0;}
+    .sticky .mobile-nav-icon i {color: #555;}
+}
